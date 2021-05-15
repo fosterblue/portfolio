@@ -163,7 +163,7 @@ header h1 span{
 }
 .people{
     max-width: 765px;
-    display: flex;
+    display:flex;
     margin: auto;
 
 }
@@ -212,9 +212,10 @@ header h1 span{
     padding-bottom: 55px;
 }
 .post{
+    text-align: left;
     display: flex;
-    margin: auto;
     max-width: 768px;
+    margin: auto;
     background-color:#f9f9f9;
 }
 .post h4{
@@ -290,9 +291,14 @@ header h1 span{
     padding-bottom: 55px;
 }
 .maps1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 765px;
     background-color: #f9f9f9;
 }
 .maps2{
+    max-height:710px;
+    position: relative;
     display:flex;
 }
 .container6{
@@ -305,4 +311,9 @@ header h1 span{
     font-size: 16px;
     padding: 40px 200px 35px 230px;
     color: #6a747d;
+}
+.info{
+    text-align: center;
+    display: flex;
+    max-width: 50%;
 }
