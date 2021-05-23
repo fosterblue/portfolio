@@ -1,5 +1,7 @@
 @import "../web-fonts-with-css/css/fontawesome-all.css";
 @import "media.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/OpenSansLight-Italic.eot");
