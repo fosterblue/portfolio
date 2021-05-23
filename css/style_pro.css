@@ -143,7 +143,7 @@ header .logo a i {
   color: #021725;
   padding-bottom: 50px;
 }
-.container a {
+.container .opener {
   height: 60px;
   width: 238px;
   font-size: 14px;
